@@ -1,0 +1,211 @@
+.heyEcoBadger {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 284.5px);
+  left: calc(50% - 161.5px);
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  width: 328px;
+  height: 58px;
+}
+.hereAreSome,
+.heyEcoBadger,
+.task3 {
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+}
+.hereAreSome {
+  position: absolute;
+  top: calc(50% - 251.5px);
+  left: calc(50% - 158.5px);
+  font-size: 17px;
+  font-weight: 600;
+  width: 311px;
+  height: 35px;
+}
+.task3 {
+  position: relative;
+  width: 124px;
+  height: 34.06px;
+  flex-shrink: 0;
+}
+.rdTaskDescription {
+  margin: 0;
+}
+.rdTaskDescriptionContainer {
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 291px;
+  height: 106.57px;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  margin-top: -2px;
+}
+.taskBox,
+.taskBox1,
+.taskBox2 {
+  position: absolute;
+  top: 609px;
+  left: 19px;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(180deg, #4e4c4c 79.69%, rgba(30, 30, 30, 0));
+  width: 314px;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  padding: 2.1973683834075928px var(--padding-2xs) 2.1973683834075928px
+    var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-giga);
+}
+.taskBox1,
+.taskBox2 {
+  top: 413px;
+}
+.taskBox2 {
+  top: 218px;
+}
+.androidLarge1Child {
+  position: absolute;
+  top: -29px;
+  left: -69px;
+  border-radius: 82px;
+  background: linear-gradient(180deg, #1c1c1c 74.48%, rgba(28, 28, 28, 0));
+  width: 473px;
+  height: 150px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  width: 360px;
+  height: 47.05px;
+}
+.vectorIcon1 {
+  top: 29.76px;
+  height: 47.04px;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  position: absolute;
+  top: 44.24px;
+  left: 0;
+  width: 360px;
+  height: 48.83px;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  top: 26.36px;
+}
+.vectorIcon5,
+.vectorIcon6 {
+  top: 57.81px;
+  height: 48.84px;
+}
+.vectorIcon6 {
+  top: 42.63px;
+  height: 47.04px;
+}
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9,
+.wave {
+  position: absolute;
+  top: 71.38px;
+  left: 0;
+  width: 360px;
+  height: 48.84px;
+}
+.vectorIcon8,
+.vectorIcon9,
+.wave {
+  top: 56.2px;
+  height: 47.04px;
+}
+.vectorIcon9,
+.wave {
+  top: 84.95px;
+  height: 48.83px;
+}
+.wave {
+  top: -17px;
+  height: 133px;
+}
+.androidLarge1Item {
+  position: absolute;
+  top: 28px;
+  left: 9px;
+  border-radius: 50%;
+  background-color: #1a1817;
+  width: 50px;
+  height: 50px;
+}
+.extMenu11,
+.extMenu12,
+.extMenu13,
+.fireflyMinimalisiticRoundish {
+  position: absolute;
+  top: 0;
+  left: 131px;
+  width: 102.22px;
+  height: 104.12px;
+  object-fit: cover;
+}
+.extMenu11,
+.extMenu12,
+.extMenu13 {
+  top: 39px;
+  left: 19px;
+  border-radius: var(--br-mini-5);
+  width: 31px;
+  height: 5px;
+}
+.extMenu12,
+.extMenu13 {
+  top: 50px;
+}
+.extMenu13 {
+  top: 61px;
+}
+.androidLarge1 {
+  position: relative;
+  background-color: #1c1817;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 100%;
+  height: 801px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-white);
+  font-family: var(--font-lexend-giga);
+}
+@media screen and (max-width: 420px) {
+  .androidLarge1 {
+    opacity: 0;
+  }
+  .androidLarge1.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
